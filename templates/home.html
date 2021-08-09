@@ -1,3 +1,7 @@
-<h1>This is about seper cool home page</h1>
-<p>Leo Babaucha</p>
-{{greeting}}
+<h1>Vice versa</h1>
+
+<form action="{% url 'reverse' %}">
+    <textarea name="usertext" cols="30" rows="10"></textarea>
+    <br><br>
+    <input type="submit" value="Reverse!">
+</form>
